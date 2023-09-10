@@ -1,6 +1,6 @@
 # MergeC
  - This program employs to merge all source files('.c') in a directory as one text file('.txt').
- - This program is for students of a lecture "Computer Programming"(Prof. Kongjoo Lee of RICE, CNU)
+ - This program is for students of a lecture "Computer Programming"(Prof. Kongjoo Lee of RICE, CNU).
 
 ## AUTHOR
  Hyeonjun Park
