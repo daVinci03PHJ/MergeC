@@ -35,7 +35,7 @@ void get_filename(char name[15])
 	int loa = -1;
 	int idx = 0;
 
-	printf("Input the assignment's date(mmdd) (0: datetime now)\n");
+	printf("Input the lab or assignment's date(mmdd) (0: datetime now)\n");
 	scanf("%s", datetime);
 
 	if (!(strcmp(datetime, "0"))) {
@@ -47,7 +47,7 @@ void get_filename(char name[15])
 
 	strcpy(name, datetime);
 
-	printf("Lab(0) or Assgn(1)?\n");
+	printf("Lab(0) or Assn(1)?\n");
 	scanf("%d", &loa);
 	if (loa == 0) {
 		name[4] = 'L';
@@ -58,8 +58,7 @@ void get_filename(char name[15])
 		name[4] = 'A';
 		name[5] = 's';
 		name[6] = 's';
-		name[7] = 'g';
-		name[8] = 'n';
+		name[7] = 'n';
 	}
 
 	idx = strlen(name);
