@@ -15,5 +15,8 @@
 - This program will read files in order of names. It is recommanded that you name the files with the problem numbers(or in order by you want).
 - This program will divide codes only by double newlines. It is recommanded that you put comments about problem numbers at the top of each code.
 
+## INSTALL
+https://github.com/daVinci03PHJ/MergeC/blob/main/MergeCSetup.zip
+
 ## NEWS
 2023-09-10	Ver 1.0.0 Released
